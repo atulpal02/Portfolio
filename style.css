@@ -68,6 +68,8 @@ a:hover {
 
 /* HAMBURGER MENU */
 
+
+
 #hamburger-nav {
   display: none;
 }
@@ -103,6 +105,8 @@ a:hover {
   overflow: hidden;
   transition: all 0.3 ease-in-out;
 }
+
+
 
 .menu-links a {
   display: block;
@@ -147,14 +151,125 @@ a:hover {
 }
 
 /* SECTIONS */
+/* HERO SECTION FIX */
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 6rem 2rem;
+  flex-wrap: wrap;
+  background: linear-gradient(to bottom, #f8f8f8, #ffffff);
+  border-radius: 20px;
+}
+
+/* MUCH BIGGER + ROUND PROFILE PIC */
+.hero-photo {
+  width: 300px;          /* increase size */
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 
+     0 15px 35px rgba(0,0,0,0.15),
+     0 0 0 10px rgba(255,255,255,0.9);
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TEXT AREA */
+.hero-text {
+  max-width: 480px;
+  text-align: left;      /* more professional */
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.hero-role {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #0a66c2;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
+  margin: 0 1.5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+.contact-card {
+  background: #f7f7f7;
+  padding: 18px 25px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 260px;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.contact-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contact-card p {
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+}
+
+.contact-card a {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: 500;
+}
+
+.contact-icon {
+  width: 34px;
+  height: 34px;
+}
+
 
 .section-container {
   display: flex;
@@ -163,11 +278,21 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+  min-height: 60vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   display: flex;
   justify-content: center;
-  gap: 5rem;
-  height: 80vh;
+  align-items: center;
+  gap: 2rem;
 }
+.hero-tagline {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
 
 .section__pic-container {
   display: flex;
@@ -261,7 +386,10 @@ section {
   gap: 1rem;
 }
 
+
 /* ABOUT SECTION */
+
+
 
 #about {
   position: relative;
@@ -381,6 +509,8 @@ article .icon {
 }
 
 /* CONTACT */
+
+
 
 #contact {
   display: flex;

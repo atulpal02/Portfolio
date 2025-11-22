@@ -36,306 +36,259 @@
         </div>
       </div>
     </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Atul pal profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Atul Pal</h1>
-        <p class="section__text__p2">Software Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/atulpal02/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/Atulpal02'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p> 2+ years <br />Full stack developer</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Tech in ECE <br />(Netaji Subhas University of Technolgy)</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              I am a passionate and dedicated software developer with a strong
-              foundation in both frontend and backend technologies. With a keen
-              eye for detail and a commitment to writing clean, efficient code,
-              I strive to create seamless user experiences and robust
-              applications. I am constantly learning and adapting to new
-              technologies to stay ahead in this ever-evolving field.
-            </p>
-          </div>
-        </div>
-      </div>
+   <section id="profile" class="hero-section">
+  <div class="hero-image-container">
+    <img src="./assets/profile-pic.png" alt="Atul Pal" class="hero-photo" />
+  </div>
+
+  <div class="hero-text">
+    <p class="hero-subtitle">Hello, I'm</p>
+    <h1 class="hero-title">Atul Pal</h1>
+    <p class="hero-role">Full-Stack Developer</p>
+
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('./assets/Atul_pal.pdf')">Download CV</button>
+      <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+    </div>
+
+    <div class="social-icons">
+      <img src="./assets/linkedin.png" class="icon" onclick="location.href='https://linkedin.com/in/atulpal02'" />
+      <img src="./assets/github.png" class="icon" onclick="location.href='https://github.com/Atulpal02'" />
+    </div>
+  </div>
+</section>
+
+   <section id="about">
+  <p class="section__text__p1">A Little About Me</p>
+  <h1 class="title">About Me</h1>
+
+  <div class="section-container">
+
+    <!-- Profile Image -->
+    <div class="section__pic-container">
       <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
+        src="./assets/about-pic.png"
+        alt="Profile picture"
+        class="about-pic"
       />
-    </section>
+    </div>
+
+    <!-- Right Side -->
+    <div class="about-details-container">
+
+      <!-- Small Cards -->
+      <div class="about-containers">
+
+        <div class="details-container">
+          <img src="./assets/experience.png" class="icon" alt="">
+          <h3>Experience</h3>
+          <p>Full-Stack Developer<br />2+ Years Building Real Projects</p>
+        </div>
+
+        <div class="details-container">
+          <img src="./assets/education.png" class="icon" alt="">
+          <h3>Education</h3>
+          <p>B.Tech – Electronics & Communication<br/>NSUT, Delhi</p>
+        </div>
+
+      </div>
+
+      <!-- Clean Modern Summary -->
+      <div class="text-container">
+        <p class="about-summary">
+          I’m a developer who enjoys turning ideas into fast, functional, and scalable software.
+          I work across the full stack — building APIs, designing architectures, optimizing databases,
+          and deploying production-ready apps.
+          <br><br>
+          My recent work includes building a job-portal system with secure authentication,
+          implementing Redis-powered performance boosts, containerizing services with Docker,
+          and deploying to AWS with CI/CD automation.
+          <br><br>
+          I like solving practical engineering problems, improving reliability, and writing code that
+          is clean, understandable, and maintainable. I’m constantly levelling up my skills in backend
+          engineering, distributed systems, and cloud deployment.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#experience'"
+  />
+</section>
+
+
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Web Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <div>
-                  <h3>REST APIS </h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JWT auth </h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Nginx</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>React JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Database</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MONGODB </h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Supabase</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MYSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-             
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Github</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>AWS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Docker </h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Kafka </h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Redis </h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>KUBERNETES </h3>
-                  <p>Basic</p>
-                </div>
-              </article>
+
+<div class="experience-details-container">
+  <div class="about-containers">
+
+    <!-- Frontend Development -->
+    <div class="details-container">
+      <h2 class="experience-sub-title">Frontend Development</h2>
+      <div class="article-container">
+
+         <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="icon" />
+          <div><h3>HTML</h3><p>Experienced</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="icon" />
+          <div><h3>CSS</h3><p>Experienced</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="icon" />
+          <div><h3>React.js</h3><p>Intermediate</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" class="icon" />
+          <div><h3>TypeScript</h3><p>Basic</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="icon" />
+          <div><h3>JavaScript</h3><p>Basic</p></div>
+        </article>
+
+          <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="icon" />
+          <div><h3>GitHub</h3><p>Intermediate</p></div>
+        </article>
+
+<!-- 
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" class="icon" />
+          <div><h3></h3><p>Basic</p></div>
+        </article> -->
+      </div>
+    </div>
+
+    <!-- Backend Development -->
+    <div class="details-container">
+      <h2 class="experience-sub-title">Backend Development</h2>
+      <div class="article-container">
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="icon" />
+          <div><h3>Node.js</h3><p>Intermediate</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" class="icon" />
+          <div><h3>Express.js</h3><p>Intermediate</p></div>
+        </article>
+
+        
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="icon" />
+          <div><h3>REST APIs</h3><p>Experienced</p></div>
+        </article>
+
+       <!-- <article>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/JSON_Web_Token_logo.svg"
+       alt="JWT Logo" class="icon" />
+  <div><h3>JWT Auth</h3><p>Intermediate</p></div>
+</article> -->
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" class="icon" />
+          <div><h3>GraphQL</h3><p>Basic</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" class="icon" />
+          <div><h3>Nginx</h3><p>Basic</p></div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- DevOps & Cloud -->
+    <div class="details-container">
+      <h2 class="experience-sub-title">DevOps & Cloud</h2>
+      <div class="article-container">
+
+       <article>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+     alt="AWS Logo" class="icon" />
+  <div><h3>AWS</h3><p>Basic</p></div>
+</article>
+
+       
+
+        
+
+
+        
+      
+         <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" class="icon" />
+          <div><h3>Docker</h3><p>Basic</p></div>
+        </article>
+
+         <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" class="icon" />
+          <div><h3>Ansible</h3><p>Basic</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" class="icon" />
+          <div><h3>GitHub Actions</h3><p>Basic</p></div>
+        </article>
+
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" class="icon" />
+          <div><h3>Kubernetes</h3><p>Basic</p></div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- Databases & Tools -->
+    <div class="details-container">
+      <h2 class="experience-sub-title">Databases & Tools</h2>
+      <div class="article-container">
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="icon" />
+          <div><h3>MongoDB</h3><p>Experienced</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" class="icon" />
+          <div><h3>Supabase</h3><p>Intermediate</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="icon" />
+          <div><h3>MySQL</h3><p>Basic</p></div>
+        </article>
+
+         <article>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="icon" />
+      <div><h3>PostgreSQL</h3><p>Basic</p></div>
+      </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" class="icon" />
+          <div><h3>Redis</h3><p>Basic</p></div>
+        </article>
+
+        <article>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" class="icon" />
+          <div><h3>Kafka</h3><p>Basic</p></div>
+        </article>
              
             </div>
           </div>
@@ -349,59 +302,103 @@
       />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Talent Board - Job portal</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/atulpal02/Talent-Board-Job-portal-project.git'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https:'"
-              >
-                Live Demo
-              </button>
-              
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Shrink - URL shortner</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/atulpal02/Shrink-URL-Shortner-Project.git '"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
+     <p class="section__text__p1">Browse My Recent</p>
+<h1 class="title">Projects</h1>
+
+<div class="experience-details-container">
+  <div class="about-containers">
+
+    <!-- Project 1 -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img
+          src="./assets/talent.png"
+          alt="Talent Board Project"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">TalentBoard </h2>
+      <p class="project-description">
+       
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/atulpal02/Talentboard.git'"
+        >
+          GitHub
+        </button>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='http://do9uafae3bmr9.cloudfront.net/'"
+        >
+          Live Demo
+        </button>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img
+          src="./assets/skinai.png"
+          alt="Project 3"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">SkinAI - A ML model</h2>
+      <p class="project-description">
+        
+      </p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/atulpal02/SkinAI.git'"
+        >
+          GitHub
+        </button>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://skinai-web.onrender.com'"
+        >
+          Live Demo
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Project 2 -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img
+          src="./assets/shrink.png"
+          alt="URL Shortener Project"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">Shrink – URL Shortener</h2>
+      <p class="project-description">
+   
+      </p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/atulpal02/Shrink-URL.git'"
+        >
+          GitHub
+        </button>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://shrink-url-klve.onrender.com'"
+        >
+          Live Demo
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
           
             </div>
           </div>
@@ -415,40 +412,72 @@
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">Atul07pal@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/atulpal02/">LinkedIn</a></p>
-        </div>
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  
+
+  <div class="contact-info-upper-container">
+    
+    
+
+    <!-- Email -->
+    <div class="contact-card">
+      <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon"
+      />
+      <div>
+        <h3>Email</h3>
+        <p><a href="mailto:Atul07pal@gmail.com">Atul07pal@gmail.com</a></p>
       </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2025 Atul Pal. All Rights Reserved.</p>
-    </footer>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="contact-card">
+      <img
+        src="./assets/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+      />
+      <div>
+        <h3>LinkedIn</h3>
+        <p><a href="https://www.linkedin.com/in/atulpal02/">linkedin.com/in/atulpal02</a></p>
+      </div>
+    </div>
+
+    <!-- GitHub -->
+    <div class="contact-card">
+      <img
+        src="./assets/github.png"
+        alt="GitHub icon"
+        class="icon contact-icon"
+      />
+      <div>
+        <h3>GitHub</h3>
+        <p><a href="https://github.com/atulpal02">github.com/atulpal02</a></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>© 2025 Atul Pal — All Rights Reserved.</p>
+</footer>
+
     <script src="script.js"></script>
   </body>
 </html>
